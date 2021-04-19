@@ -1,1 +1,1 @@
-# Veri-Tabam-2
+# Veri-Tabanı-2
