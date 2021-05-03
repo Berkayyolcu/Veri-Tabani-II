@@ -121,10 +121,5 @@ values(1,'Teknoloji',1),
 (6,'Teknoloji',6);
 select*from Kategori;
 
-/*select*from müsteri
-inner join fatura on müsteri.fid=fartura.mid;
 
-select*from fatura
-inner join  müsteri on fatura.mid=müsteri.fid
-*/
 
