@@ -125,10 +125,4 @@ values(1,'Teknoloji',1),
 select*from Kategori;
 drop table Kategori;
 
-select*from müsteri
-inner join fatura on müsteri.fid=fartura.mid;
-
-select*from (fatura)
-inner join  müsteri on fatura.mid=müsteri.fid
-
 
