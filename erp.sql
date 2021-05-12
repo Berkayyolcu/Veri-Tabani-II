@@ -127,7 +127,7 @@ drop table Kategori;
 
 
 select * from Fatura
-inner join  Müsteri on Fatura.mid = Müsteri.mid;  
+inner join  Müsteri on Fatura.mid=Müsteri.mid;  
 
 select * from Satıs_temsilcisi
 inner join  Müsteri on Satıs_temsilcisi.mid=Müsteri.mid;
@@ -136,7 +136,7 @@ select * from Ürün
 inner join  Müsteri on Ürün.mid=Müsteri.mid;
 
 select * from Siparis
-inner join  Müsteri on Siparis.mid = Müsteri.mid;
+inner join  Müsteri on Siparis.mid=Müsteri.mid;
 
 select * from Kargo
 inner join  Müsteri on Kargo.mid=Müsteri.mid;
@@ -148,7 +148,7 @@ select * from Siparis
 inner join Ürün on Siparis.üid=Ürün.üid;
 
 select * from Kategori
-inner join Ürün on Kategori.üid = Ürün.üid;
+inner join Ürün on Kategori.üid=Ürün.üid;
 
 
 
